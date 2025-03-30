@@ -5,9 +5,8 @@ import sys
 from matplotlib import pyplot as plt
 from azure.core.exceptions import HttpResponseError
 import requests
+
 # Import namespaces
-# Uncomment to test for excercise 
-# Exercise1: step 5 Uncommnet below 
 from azure.ai.vision.imageanalysis import ImageAnalysisClient
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
@@ -30,7 +29,6 @@ def main():
             image_data = f.read()
 
         # Authenticate Azure AI Vision client
-        # # Exercise1: step 5 Uncommnet below Uncommnet below 
         cv_client = ImageAnalysisClient(endpoint=ai_endpoint, credential=AzureKeyCredential(ai_key))
         # Analyze image and retrieve specified features
         result = cv_client.analyze(
@@ -72,7 +70,6 @@ def AnalyzeImage(image_filename, image_data, cv_client):
 
     # Display analysis results
     # Get image captions
-    # Uncommnet below
     if result.caption is not None:
         print("\nCaption:")
         print(" Caption: '{}' (confidence: {:.2f}%)".format(result.caption.text, result.caption.confidence * 100))
@@ -83,8 +80,7 @@ def AnalyzeImage(image_filename, image_data, cv_client):
         for caption in result.dense_captions.list:
             print(" Caption: '{}' (confidence: {:.2f}%)".format(caption.text, caption.confidence * 100))
 
-    # Get image tags
-    # Uncomment 
+    # Get image tags 
     if result.tags is not None:
         print("\nTags:")
         for tag in result.tags.list:
