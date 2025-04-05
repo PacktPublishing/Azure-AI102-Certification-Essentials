@@ -3,3 +3,4 @@
 .git
 /backup
 **/.env
+**/get-videos.ps1

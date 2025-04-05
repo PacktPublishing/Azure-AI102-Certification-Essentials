@@ -91,8 +91,10 @@ All embedded URL links throughout the book will be provided in the corresponding
 * The Azure AI Speech to Text service provides two REST APIs for speech recognition: the primary Speech to Text API for general speech transcription and the Speech to Text Short Audio API, optimized for short audio streams (up to 60 seconds). These APIs support both interactive speech recognition and batch transcription, making them adaptable to various audio lengths and volumes. Developers typically access these services through language-specific SDKs, such as Python or C#. For more details on usage, visit https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-text-to-speech?tabs=streaming
 * a dedicated Azure AI Speech resource at https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices 
 * Speech Studio at https://speech.microsoft.com/portal/voicegallery
+* Azure Language Studio (https://language.cognitive.azure.com/)
 * an FAQ page, such as the Microsoft Learn FAQ URL with the following URL: https://docs.microsoft.com/en-us/learn/support/faq
 * Microsoft credentials page (https://docs.microsoft.com/learn/credentials/)
+* Enable CORS for your storage account (https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/how-to/create-project?tabs=language-studio%2Cstudio%2Cmulti-classification#enable-cors-for-your-storage-account)
   
 >[**Further Reading**]
 * Azure AI Language documentation at https://learn.microsoft.com/en-us/azure/ai-services/language-service/
