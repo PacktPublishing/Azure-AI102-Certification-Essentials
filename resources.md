@@ -95,6 +95,7 @@ All embedded URL links throughout the book will be provided in the corresponding
 * an FAQ page, such as the Microsoft Learn FAQ URL with the following URL: https://docs.microsoft.com/en-us/learn/support/faq
 * Microsoft credentials page (https://docs.microsoft.com/learn/credentials/)
 * Enable CORS for your storage account (https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/how-to/create-project?tabs=language-studio%2Cstudio%2Cmulti-classification#enable-cors-for-your-storage-account)
+* How to create custom text classification project (https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/how-to/create-project?tabs=language-studio%2Cstudio%2Cmulti-classification#create-a-custom-text-classification-project)
   
 >[**Further Reading**]
 * Azure AI Language documentation at https://learn.microsoft.com/en-us/azure/ai-services/language-service/
