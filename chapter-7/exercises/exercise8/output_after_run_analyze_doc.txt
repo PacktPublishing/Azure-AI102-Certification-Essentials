@@ -1,0 +1,1773 @@
+Analyzing document...
+202
+Getting results...
+200
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+Analysis succeeded.
+{
+  "id": "a0b5e80d-6f74-4da3-94a4-9d79ab9e6e22",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "travel-insurance-analyzer",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2025-04-22T16:58:05Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# HUMONGOUS INSURANCE CORP\n\nTRAVEL INSURANCE APPLICATION FORM FOR MARGIE'S TRAVEL CUSTOMERS\n\n\n<table>\n<tr>\n<th></th>\n<th>PERSONAL DETAILS</th>\n</tr>\n<tr>\n<td>Name:</td>\n<td>Wan Wu</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Address:</td>\n<td>2165 Main Street, Unit 1276</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>City:</td>\n<td>San Francisco</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Postal Code:</td>\n<td>906543</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Country:</td>\n<td>USA</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Date of Birth:</td>\n<td>03/07/1977</td>\n</tr>\n</table>\n\n\n## TRIP DETAILS\n\n\n<table>\n<tr>\n<td>Destination City:</td>\n<td>Dubai</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"2\">Destination Country:</td>\n<td>United Arab Emirates</td>\n</tr>\n<tr>\n<td></td>\n</tr>\n<tr>\n<td>Departure Date:</td>\n<td>11/16/2018</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Return Date:</td>\n<td>11/23/2018</td>\n</tr>\n</table>\n\n\nSignature:\n\nWan Wu\n\nDate:\n\n10/29/2018\n",
+        "fields": {
+          "Date": {
+            "type": "date",
+            "valueDate": "2018-10-29",
+            "spans": [
+              {
+                "offset": 1010,
+                "length": 10
+              }
+            ],
+            "confidence": 0.992,
+            "source": "D(1,2.568,8.7791,3.348,8.7791,3.348,8.9285,2.568,8.9285)"
+          },
+          "Signature": {
+            "type": "string",
+            "valueString": "Wan Wu",
+            "spans": [
+              {
+                "offset": 995,
+                "length": 6
+              }
+            ],
+            "confidence": 0.995,
+            "source": "D(1,2.5895,8.3909,3.2705,8.3909,3.2705,8.5396,2.5895,8.5396)"
+          },
+          "PersonalDetails": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "PolicyholderName": {
+                    "type": "string",
+                    "valueString": "Wan Wu",
+                    "spans": [
+                      {
+                        "offset": 173,
+                        "length": 6
+                      }
+                    ],
+                    "confidence": 0.978,
+                    "source": "D(1,2.5658,2.8297,3.1266,2.8297,3.1266,2.9871,2.5658,2.9871)"
+                  },
+                  "StreetAddress": {
+                    "type": "string",
+                    "valueString": "2165 Main Street, Unit 1276",
+                    "spans": [
+                      {
+                        "offset": 249,
+                        "length": 27
+                      }
+                    ],
+                    "confidence": 0.958,
+                    "source": "D(1,2.5645,3.2158,4.4437,3.2158,4.4437,3.3799,2.5645,3.3799)"
+                  },
+                  "City": {
+                    "type": "string",
+                    "valueString": "San Francisco",
+                    "spans": [
+                      {
+                        "offset": 343,
+                        "length": 13
+                      }
+                    ],
+                    "confidence": 0.987,
+                    "source": "D(1,2.5715,3.6105,3.4697,3.6105,3.4697,3.7622,2.5715,3.7622)"
+                  },
+                  "PostalCode": {
+                    "type": "string",
+                    "valueString": "906543",
+                    "spans": [
+                      {
+                        "offset": 430,
+                        "length": 6
+                      }
+                    ],
+                    "confidence": 0.994,
+                    "source": "D(1,2.5657,4.0013,3.0824,4.0013,3.0824,4.152,2.5657,4.152)"
+                  },
+                  "CountryRegion": {
+                    "type": "string",
+                    "valueString": "USA",
+                    "spans": [
+                      {
+                        "offset": 506,
+                        "length": 3
+                      }
+                    ],
+                    "confidence": 0.988,
+                    "source": "D(1,2.5637,4.3887,2.8721,4.3887,2.8721,4.5378,2.5637,4.5378)"
+                  },
+                  "DateOfBirth": {
+                    "type": "date",
+                    "valueDate": "1977-03-07",
+                    "spans": [
+                      {
+                        "offset": 585,
+                        "length": 10
+                      }
+                    ],
+                    "confidence": 0.986,
+                    "source": "D(1,2.5632,4.7734,3.3757,4.7734,3.3757,4.9302,2.5632,4.9302)"
+                  }
+                }
+              }
+            ]
+          },
+          "TripDetails": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "DestinationCity": {
+                    "type": "string",
+                    "valueString": "Dubai",
+                    "spans": [
+                      {
+                        "offset": 680,
+                        "length": 5
+                      }
+                    ],
+                    "confidence": 0.996,
+                    "source": "D(1,2.5689,6.093,2.9385,6.093,2.9385,6.2446,2.5689,6.2446)"
+                  },
+                  "DestinationCountry": {
+                    "type": "string",
+                    "valueString": "United Arab Emirates",
+                    "spans": [
+                      {
+                        "offset": 779,
+                        "length": 20
+                      }
+                    ],
+                    "confidence": 0.939,
+                    "source": "D(1,2.5608,6.4783,4.001,6.4783,4.001,6.6408,2.5608,6.6408)"
+                  },
+                  "DepartureDate": {
+                    "type": "date",
+                    "valueDate": "2018-11-16",
+                    "spans": [
+                      {
+                        "offset": 866,
+                        "length": 10
+                      }
+                    ],
+                    "confidence": 0.983,
+                    "source": "D(1,2.5658,6.8679,3.3092,6.8679,3.3092,7.0196,2.5658,7.0196)"
+                  },
+                  "ReturnDate": {
+                    "type": "date",
+                    "valueDate": "2018-11-23",
+                    "spans": [
+                      {
+                        "offset": 950,
+                        "length": 10
+                      }
+                    ],
+                    "confidence": 0.979,
+                    "source": "D(1,2.5665,7.2578,3.3258,7.2578,3.3258,7.4071,2.5665,7.4071)"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "inch",
+        "pages": [
+          {
+            "pageNumber": 1,
+            "angle": 0.08052593,
+            "width": 8.5,
+            "height": 11,
+            "spans": [
+              {
+                "offset": 0,
+                "length": 1021
+              }
+            ],
+            "words": [
+              {
+                "content": "HUMONGOUS",
+                "span": {
+                  "offset": 2,
+                  "length": 9
+                },
+                "confidence": 0.993,
+                "source": "D(1,1.2696,1.0606,3.77,1.0662,3.7692,1.384,1.2685,1.384)"
+              },
+              {
+                "content": "INSURANCE",
+                "span": {
+                  "offset": 12,
+                  "length": 9
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.8963,1.0662,6.0124,1.0629,6.0118,1.384,3.8956,1.384)"
+              },
+              {
+                "content": "CORP",
+                "span": {
+                  "offset": 22,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,6.1282,1.0635,7.2272,1.0637,7.2272,1.384,6.1277,1.384)"
+              },
+              {
+                "content": "TRAVEL",
+                "span": {
+                  "offset": 28,
+                  "length": 6
+                },
+                "confidence": 0.992,
+                "source": "D(1,1.1973,1.5792,1.8211,1.5787,1.8212,1.7493,1.1974,1.7484)"
+              },
+              {
+                "content": "INSURANCE",
+                "span": {
+                  "offset": 35,
+                  "length": 9
+                },
+                "confidence": 0.989,
+                "source": "D(1,1.8743,1.5787,2.7806,1.5776,2.7806,1.7494,1.8744,1.7493)"
+              },
+              {
+                "content": "APPLICATION",
+                "span": {
+                  "offset": 45,
+                  "length": 11
+                },
+                "confidence": 0.989,
+                "source": "D(1,2.8225,1.5776,3.8715,1.5785,3.8717,1.7494,2.8225,1.7494)"
+              },
+              {
+                "content": "FORM",
+                "span": {
+                  "offset": 57,
+                  "length": 4
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.9303,1.5786,4.389,1.5792,4.3892,1.7494,3.9305,1.7494)"
+              },
+              {
+                "content": "FOR",
+                "span": {
+                  "offset": 62,
+                  "length": 3
+                },
+                "confidence": 0.995,
+                "source": "D(1,4.4478,1.5793,4.7667,1.5797,4.7668,1.7494,4.448,1.7494)"
+              },
+              {
+                "content": "MARGIE'S",
+                "span": {
+                  "offset": 66,
+                  "length": 8
+                },
+                "confidence": 0.97,
+                "source": "D(1,4.8226,1.5797,5.5835,1.5792,5.5835,1.7494,4.8227,1.7494)"
+              },
+              {
+                "content": "TRAVEL",
+                "span": {
+                  "offset": 75,
+                  "length": 6
+                },
+                "confidence": 0.993,
+                "source": "D(1,5.6227,1.5793,6.2381,1.58,6.2381,1.7494,5.6227,1.7494)"
+              },
+              {
+                "content": "CUSTOMERS",
+                "span": {
+                  "offset": 82,
+                  "length": 9
+                },
+                "confidence": 0.993,
+                "source": "D(1,6.2856,1.58,7.2992,1.5824,7.2992,1.7494,6.2857,1.7494)"
+              },
+              {
+                "content": "PERSONAL",
+                "span": {
+                  "offset": 121,
+                  "length": 8
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.4538,2.5093,4.3271,2.5123,4.327,2.6704,3.4538,2.6684)"
+              },
+              {
+                "content": "DETAILS",
+                "span": {
+                  "offset": 130,
+                  "length": 7
+                },
+                "confidence": 0.992,
+                "source": "D(1,4.379,2.5122,5.0469,2.5123,5.0469,2.6709,4.379,2.6708)"
+              },
+              {
+                "content": "Name:",
+                "span": {
+                  "offset": 158,
+                  "length": 5
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.0665,2.8357,1.4886,2.8365,1.4886,2.9728,1.0664,2.9694)"
+              },
+              {
+                "content": "Wan",
+                "span": {
+                  "offset": 173,
+                  "length": 3
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.5658,2.8316,2.8578,2.8297,2.8581,2.9866,2.5663,2.9871)"
+              },
+              {
+                "content": "Wu",
+                "span": {
+                  "offset": 177,
+                  "length": 2
+                },
+                "confidence": 0.977,
+                "source": "D(1,2.9091,2.8297,3.1266,2.8297,3.1266,2.9862,2.9092,2.9865)"
+              },
+              {
+                "content": "Address:",
+                "span": {
+                  "offset": 231,
+                  "length": 8
+                },
+                "confidence": 0.994,
+                "source": "D(1,1.0621,3.2231,1.6159,3.2248,1.6159,3.369,1.0618,3.3648)"
+              },
+              {
+                "content": "2165",
+                "span": {
+                  "offset": 249,
+                  "length": 4
+                },
+                "confidence": 0.989,
+                "source": "D(1,2.5645,3.2169,2.8836,3.2175,2.8839,3.3793,2.5652,3.3779)"
+              },
+              {
+                "content": "Main",
+                "span": {
+                  "offset": 254,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,2.9342,3.2174,3.232,3.2172,3.2324,3.3799,2.9343,3.3792)"
+              },
+              {
+                "content": "Street,",
+                "span": {
+                  "offset": 259,
+                  "length": 7
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.2799,3.2171,3.756,3.2165,3.7563,3.3796,3.2802,3.3799)"
+              },
+              {
+                "content": "Unit",
+                "span": {
+                  "offset": 267,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,3.8092,3.2164,4.0805,3.2166,4.0808,3.3794,3.8095,3.3795)"
+              },
+              {
+                "content": "1276",
+                "span": {
+                  "offset": 272,
+                  "length": 4
+                },
+                "confidence": 0.985,
+                "source": "D(1,4.131,3.2165,4.4437,3.2158,4.4437,3.3771,4.1313,3.3797)"
+              },
+              {
+                "content": "City:",
+                "span": {
+                  "offset": 328,
+                  "length": 5
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.0672,3.6149,1.3558,3.6188,1.3558,3.77,1.0659,3.7654)"
+              },
+              {
+                "content": "San",
+                "span": {
+                  "offset": 343,
+                  "length": 3
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.5715,3.6105,2.8112,3.6113,2.8116,3.7614,2.5722,3.762)"
+              },
+              {
+                "content": "Francisco",
+                "span": {
+                  "offset": 347,
+                  "length": 9
+                },
+                "confidence": 0.992,
+                "source": "D(1,2.8632,3.6107,3.4697,3.6106,3.4697,3.7622,2.8634,3.7611)"
+              },
+              {
+                "content": "Postal",
+                "span": {
+                  "offset": 408,
+                  "length": 6
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.0696,3.9946,1.4441,3.9952,1.4439,4.1433,1.0702,4.1416)"
+              },
+              {
+                "content": "Code:",
+                "span": {
+                  "offset": 415,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.4903,3.9953,1.8478,3.9943,1.8476,4.1456,1.4901,4.1439)"
+              },
+              {
+                "content": "906543",
+                "span": {
+                  "offset": 430,
+                  "length": 6
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.5657,4.0025,3.0824,4.0013,3.0824,4.1508,2.5662,4.152)"
+              },
+              {
+                "content": "Country:",
+                "span": {
+                  "offset": 488,
+                  "length": 8
+                },
+                "confidence": 0.994,
+                "source": "D(1,1.0684,4.3897,1.6159,4.392,1.6159,4.545,1.0683,4.5391)"
+              },
+              {
+                "content": "USA",
+                "span": {
+                  "offset": 506,
+                  "length": 3
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.5637,4.3887,2.8721,4.3898,2.8721,4.5378,2.5637,4.5365)"
+              },
+              {
+                "content": "Date",
+                "span": {
+                  "offset": 561,
+                  "length": 4
+                },
+                "confidence": 0.988,
+                "source": "D(1,1.0685,4.7751,1.3656,4.7754,1.3657,4.9261,1.0697,4.9243)"
+              },
+              {
+                "content": "of",
+                "span": {
+                  "offset": 566,
+                  "length": 2
+                },
+                "confidence": 0.998,
+                "source": "D(1,1.4052,4.7752,1.5339,4.7744,1.534,4.9264,1.4054,4.9262)"
+              },
+              {
+                "content": "Birth:",
+                "span": {
+                  "offset": 569,
+                  "length": 6
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.5735,4.7745,1.9147,4.7749,1.9147,4.9268,1.5736,4.9268)"
+              },
+              {
+                "content": "03/07/1977",
+                "span": {
+                  "offset": 585,
+                  "length": 10
+                },
+                "confidence": 0.994,
+                "source": "D(1,2.5632,4.7741,3.3757,4.7734,3.3757,4.9302,2.5636,4.9289)"
+              },
+              {
+                "content": "TRIP",
+                "span": {
+                  "offset": 621,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,3.7039,5.7674,4.0703,5.7676,4.0708,5.9334,3.7045,5.9334)"
+              },
+              {
+                "content": "DETAILS",
+                "span": {
+                  "offset": 626,
+                  "length": 7
+                },
+                "confidence": 0.993,
+                "source": "D(1,4.1246,5.7682,4.7923,5.7698,4.7923,5.9339,4.1251,5.9338)"
+              },
+              {
+                "content": "Destination",
+                "span": {
+                  "offset": 653,
+                  "length": 11
+                },
+                "confidence": 0.994,
+                "source": "D(1,1.067,6.0889,1.7821,6.0893,1.7814,6.2501,1.0674,6.2451)"
+              },
+              {
+                "content": "City:",
+                "span": {
+                  "offset": 665,
+                  "length": 5
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.8291,6.0893,2.1029,6.0904,2.1029,6.2501,1.8285,6.2501)"
+              },
+              {
+                "content": "Dubai",
+                "span": {
+                  "offset": 680,
+                  "length": 5
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.5689,6.0958,2.9385,6.093,2.9385,6.2446,2.5689,6.2446)"
+              },
+              {
+                "content": "Destination",
+                "span": {
+                  "offset": 749,
+                  "length": 11
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.0674,6.4759,1.7833,6.4783,1.7828,6.6355,1.0677,6.6302)"
+              },
+              {
+                "content": "Country:",
+                "span": {
+                  "offset": 761,
+                  "length": 8
+                },
+                "confidence": 0.992,
+                "source": "D(1,1.8293,6.479,2.363,6.4813,2.363,6.6372,1.8288,6.6358)"
+              },
+              {
+                "content": "United",
+                "span": {
+                  "offset": 779,
+                  "length": 6
+                },
+                "confidence": 0.993,
+                "source": "D(1,2.5608,6.4783,3.004,6.4783,3.0039,6.6392,2.5611,6.6363)"
+              },
+              {
+                "content": "Arab",
+                "span": {
+                  "offset": 786,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,3.0564,6.4786,3.3685,6.4796,3.3684,6.6404,3.0564,6.6393)"
+              },
+              {
+                "content": "Emirates",
+                "span": {
+                  "offset": 791,
+                  "length": 8
+                },
+                "confidence": 0.992,
+                "source": "D(1,3.4183,6.4798,4.001,6.4814,4.001,6.6402,3.4182,6.6408)"
+              },
+              {
+                "content": "Departure",
+                "span": {
+                  "offset": 841,
+                  "length": 9
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.0677,6.8659,1.7064,6.8667,1.7063,7.0252,1.068,7.0244)"
+              },
+              {
+                "content": "Date:",
+                "span": {
+                  "offset": 851,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.7555,6.8665,2.0807,6.8672,2.0807,7.0247,1.7554,7.0244)"
+              },
+              {
+                "content": "11/16/2018",
+                "span": {
+                  "offset": 866,
+                  "length": 10
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.5658,6.8679,3.3092,6.8682,3.3092,7.0196,2.5668,7.0183)"
+              },
+              {
+                "content": "Return",
+                "span": {
+                  "offset": 928,
+                  "length": 6
+                },
+                "confidence": 0.997,
+                "source": "D(1,1.0673,7.2514,1.4887,7.2532,1.4887,7.3974,1.0684,7.396)"
+              },
+              {
+                "content": "Date:",
+                "span": {
+                  "offset": 935,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.5434,7.2529,1.8704,7.2521,1.8704,7.3985,1.5434,7.3984)"
+              },
+              {
+                "content": "11/23/2018",
+                "span": {
+                  "offset": 950,
+                  "length": 10
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.5665,7.2578,3.3258,7.258,3.3258,7.4071,2.5675,7.405)"
+              },
+              {
+                "content": "Signature:",
+                "span": {
+                  "offset": 983,
+                  "length": 10
+                },
+                "confidence": 0.996,
+                "source": "D(1,1.0636,8.3968,1.7044,8.3987,1.7044,8.5467,1.064,8.5476)"
+              },
+              {
+                "content": "Wan",
+                "span": {
+                  "offset": 995,
+                  "length": 3
+                },
+                "confidence": 0.996,
+                "source": "D(1,2.5895,8.3909,2.9064,8.3911,2.9068,8.5392,2.5902,8.5378)"
+              },
+              {
+                "content": "Wu",
+                "span": {
+                  "offset": 999,
+                  "length": 2
+                },
+                "confidence": 0.957,
+                "source": "D(1,2.9863,8.3912,3.2705,8.3922,3.2705,8.539,2.9866,8.5396)"
+              },
+              {
+                "content": "Date:",
+                "span": {
+                  "offset": 1003,
+                  "length": 5
+                },
+                "confidence": 0.997,
+                "source": "D(1,1.0684,8.7814,1.4111,8.7825,1.4111,8.9152,1.068,8.9129)"
+              },
+              {
+                "content": "10/29/2018",
+                "span": {
+                  "offset": 1010,
+                  "length": 10
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.568,8.7798,3.348,8.7791,3.348,8.9285,2.5689,8.9265)"
+              }
+            ],
+            "lines": [
+              {
+                "content": "HUMONGOUS INSURANCE CORP",
+                "source": "D(1,1.2685,1.0606,7.2237,1.0605,7.2237,1.3823,1.2685,1.3823)",
+                "span": {
+                  "offset": 2,
+                  "length": 24
+                }
+              },
+              {
+                "content": "TRAVEL INSURANCE APPLICATION FORM FOR MARGIE'S TRAVEL CUSTOMERS",
+                "source": "D(1,1.1973,1.5766,7.2979,1.5802,7.2978,1.7494,1.1972,1.7468)",
+                "span": {
+                  "offset": 28,
+                  "length": 63
+                }
+              },
+              {
+                "content": "PERSONAL DETAILS",
+                "source": "D(1,3.4538,2.5093,5.0451,2.5119,5.0448,2.6698,3.4535,2.6671)",
+                "span": {
+                  "offset": 121,
+                  "length": 16
+                }
+              },
+              {
+                "content": "Name:",
+                "source": "D(1,1.0665,2.8344,1.4838,2.836,1.4831,2.9713,1.0658,2.9693)",
+                "span": {
+                  "offset": 158,
+                  "length": 5
+                }
+              },
+              {
+                "content": "Wan Wu",
+                "source": "D(1,2.5658,2.8294,3.1235,2.829,3.1236,2.9843,2.5659,2.9847)",
+                "span": {
+                  "offset": 173,
+                  "length": 6
+                }
+              },
+              {
+                "content": "Address:",
+                "source": "D(1,1.0621,3.2227,1.6134,3.224,1.613,3.3666,1.0617,3.3652)",
+                "span": {
+                  "offset": 231,
+                  "length": 8
+                }
+              },
+              {
+                "content": "2165 Main Street, Unit 1276",
+                "source": "D(1,2.5645,3.2167,4.4412,3.2158,4.4413,3.3771,2.5646,3.3779)",
+                "span": {
+                  "offset": 249,
+                  "length": 27
+                }
+              },
+              {
+                "content": "City:",
+                "source": "D(1,1.0672,3.614,1.3518,3.6179,1.3497,3.7675,1.0652,3.7636)",
+                "span": {
+                  "offset": 328,
+                  "length": 5
+                }
+              },
+              {
+                "content": "San Francisco",
+                "source": "D(1,2.5715,3.6101,3.4696,3.6101,3.4696,3.7601,2.5715,3.7601)",
+                "span": {
+                  "offset": 343,
+                  "length": 13
+                }
+              },
+              {
+                "content": "Postal Code:",
+                "source": "D(1,1.0696,3.9929,1.8454,3.994,1.8451,4.1431,1.0694,4.1419)",
+                "span": {
+                  "offset": 408,
+                  "length": 12
+                }
+              },
+              {
+                "content": "906543",
+                "source": "D(1,2.5657,4.001,3.078,4.0001,3.0783,4.1488,2.5659,4.1497)",
+                "span": {
+                  "offset": 430,
+                  "length": 6
+                }
+              },
+              {
+                "content": "Country:",
+                "source": "D(1,1.0684,4.3884,1.6111,4.3909,1.6104,4.5431,1.068,4.5405)",
+                "span": {
+                  "offset": 488,
+                  "length": 8
+                }
+              },
+              {
+                "content": "USA",
+                "source": "D(1,2.5637,4.3878,2.8702,4.3884,2.8699,4.5358,2.5634,4.5352)",
+                "span": {
+                  "offset": 506,
+                  "length": 3
+                }
+              },
+              {
+                "content": "Date of Birth:",
+                "source": "D(1,1.0685,4.7741,1.9095,4.7742,1.9095,4.9245,1.0685,4.9245)",
+                "span": {
+                  "offset": 561,
+                  "length": 14
+                }
+              },
+              {
+                "content": "03/07/1977",
+                "source": "D(1,2.5632,4.772,3.3708,4.773,3.3706,4.9279,2.563,4.9267)",
+                "span": {
+                  "offset": 585,
+                  "length": 10
+                }
+              },
+              {
+                "content": "TRIP DETAILS",
+                "source": "D(1,3.7039,5.7656,4.7916,5.7682,4.7912,5.9332,3.7035,5.9306)",
+                "span": {
+                  "offset": 621,
+                  "length": 12
+                }
+              },
+              {
+                "content": "Destination City:",
+                "source": "D(1,1.067,6.0852,2.1027,6.0903,2.102,6.2499,1.0662,6.2448)",
+                "span": {
+                  "offset": 653,
+                  "length": 17
+                }
+              },
+              {
+                "content": "Dubai",
+                "source": "D(1,2.5688,6.093,2.9367,6.0927,2.9368,6.2439,2.5689,6.2442)",
+                "span": {
+                  "offset": 680,
+                  "length": 5
+                }
+              },
+              {
+                "content": "Destination Country:",
+                "source": "D(1,1.0674,6.474,2.363,6.4812,2.3624,6.6363,1.0665,6.6291)",
+                "span": {
+                  "offset": 749,
+                  "length": 20
+                }
+              },
+              {
+                "content": "United Arab Emirates",
+                "source": "D(1,2.5608,6.4773,4.001,6.4802,4.0007,6.6397,2.5604,6.6368)",
+                "span": {
+                  "offset": 779,
+                  "length": 20
+                }
+              },
+              {
+                "content": "Departure Date:",
+                "source": "D(1,1.0677,6.8656,2.0803,6.8657,2.0803,7.023,1.0677,7.0229)",
+                "span": {
+                  "offset": 841,
+                  "length": 15
+                }
+              },
+              {
+                "content": "11/16/2018",
+                "source": "D(1,2.5658,6.8665,3.3052,6.8679,3.305,7.0179,2.5655,7.0165)",
+                "span": {
+                  "offset": 866,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Return Date:",
+                "source": "D(1,1.0673,7.2514,1.867,7.2518,1.867,7.3965,1.0672,7.3961)",
+                "span": {
+                  "offset": 928,
+                  "length": 12
+                }
+              },
+              {
+                "content": "11/23/2018",
+                "source": "D(1,2.5665,7.2571,3.325,7.258,3.3248,7.4056,2.5664,7.4047)",
+                "span": {
+                  "offset": 950,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Signature:",
+                "source": "D(1,1.0636,8.3968,1.7033,8.397,1.7032,8.5463,1.0636,8.5461)",
+                "span": {
+                  "offset": 983,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Wan Wu",
+                "source": "D(1,2.5895,8.3904,3.2687,8.3913,3.2686,8.5377,2.5893,8.5368)",
+                "span": {
+                  "offset": 995,
+                  "length": 6
+                }
+              },
+              {
+                "content": "Date:",
+                "source": "D(1,1.0684,8.7801,1.4092,8.7824,1.4083,8.9139,1.0675,8.9116)",
+                "span": {
+                  "offset": 1003,
+                  "length": 5
+                }
+              },
+              {
+                "content": "10/29/2018",
+                "source": "D(1,2.568,8.7798,3.3477,8.779,3.3478,8.926,2.5681,8.9269)",
+                "span": {
+                  "offset": 1010,
+                  "length": 10
+                }
+              }
+            ]
+          }
+        ],
+        "paragraphs": [
+          {
+            "role": "title",
+            "content": "HUMONGOUS INSURANCE CORP",
+            "source": "D(1,1.2685,1.0606,7.2237,1.0605,7.2237,1.3823,1.2685,1.3823)",
+            "span": {
+              "offset": 0,
+              "length": 26
+            }
+          },
+          {
+            "content": "TRAVEL INSURANCE APPLICATION FORM FOR MARGIE'S TRAVEL CUSTOMERS",
+            "source": "D(1,1.1973,1.5766,7.2979,1.5802,7.2978,1.7504,1.1972,1.7468)",
+            "span": {
+              "offset": 28,
+              "length": 63
+            }
+          },
+          {
+            "content": "PERSONAL DETAILS",
+            "source": "D(1,2.4918,2.4836,7.5083,2.4903,7.5083,2.8068,2.4918,2.8001)",
+            "span": {
+              "offset": 121,
+              "length": 16
+            }
+          },
+          {
+            "content": "Name:",
+            "source": "D(1,1.0037,2.7866,2.4918,2.8001,2.4918,2.9886,1.0037,2.9886)",
+            "span": {
+              "offset": 158,
+              "length": 5
+            }
+          },
+          {
+            "content": "Wan Wu",
+            "source": "D(1,2.4918,2.8001,7.5083,2.8068,7.5083,3.0021,2.4918,2.9886)",
+            "span": {
+              "offset": 173,
+              "length": 6
+            }
+          },
+          {
+            "content": "Address:",
+            "source": "D(1,1.0037,3.1839,2.4918,3.1839,2.4918,3.3859,1.0037,3.3859)",
+            "span": {
+              "offset": 231,
+              "length": 8
+            }
+          },
+          {
+            "content": "2165 Main Street, Unit 1276",
+            "source": "D(1,2.4918,3.1839,7.5151,3.1974,7.5151,3.3994,2.4918,3.3859)",
+            "span": {
+              "offset": 249,
+              "length": 27
+            }
+          },
+          {
+            "content": "City:",
+            "source": "D(1,1.0037,3.5677,2.4918,3.5744,2.4918,3.7764,1.0037,3.7697)",
+            "span": {
+              "offset": 328,
+              "length": 5
+            }
+          },
+          {
+            "content": "San Francisco",
+            "source": "D(1,2.4918,3.5744,7.5151,3.5812,7.5151,3.7832,2.4918,3.7764)",
+            "span": {
+              "offset": 343,
+              "length": 13
+            }
+          },
+          {
+            "content": "Postal Code:",
+            "source": "D(1,1.0037,3.965,2.4918,3.965,2.4918,4.167,1.0037,4.1603)",
+            "span": {
+              "offset": 408,
+              "length": 12
+            }
+          },
+          {
+            "content": "906543",
+            "source": "D(1,2.4918,3.965,7.5151,3.9785,7.5151,4.167,2.4918,4.167)",
+            "span": {
+              "offset": 430,
+              "length": 6
+            }
+          },
+          {
+            "content": "Country:",
+            "source": "D(1,1.0037,4.3488,2.4918,4.3555,2.4918,4.5576,0.9969,4.5508)",
+            "span": {
+              "offset": 488,
+              "length": 8
+            }
+          },
+          {
+            "content": "USA",
+            "source": "D(1,2.4918,4.3555,7.5151,4.3555,7.5151,4.5576,2.4918,4.5576)",
+            "span": {
+              "offset": 506,
+              "length": 3
+            }
+          },
+          {
+            "content": "Date of Birth:",
+            "source": "D(1,0.9969,4.7394,2.4918,4.7461,2.4918,4.9414,0.9969,4.9414)",
+            "span": {
+              "offset": 561,
+              "length": 14
+            }
+          },
+          {
+            "content": "03/07/1977",
+            "source": "D(1,2.4918,4.7461,7.5218,4.7461,7.5218,4.9481,2.4918,4.9414)",
+            "span": {
+              "offset": 585,
+              "length": 10
+            }
+          },
+          {
+            "role": "sectionHeading",
+            "content": "TRIP DETAILS",
+            "source": "D(1,3.7039,5.7656,4.7916,5.7682,4.7912,5.9332,3.7035,5.9306)",
+            "span": {
+              "offset": 618,
+              "length": 15
+            }
+          },
+          {
+            "content": "Destination City:",
+            "source": "D(1,1.0135,6.063,2.4949,6.063,2.4949,6.2582,1.0135,6.2582)",
+            "span": {
+              "offset": 653,
+              "length": 17
+            }
+          },
+          {
+            "content": "Dubai",
+            "source": "D(1,2.4949,6.063,7.5384,6.063,7.5384,6.265,2.4949,6.2582)",
+            "span": {
+              "offset": 680,
+              "length": 5
+            }
+          },
+          {
+            "content": "Destination Country:",
+            "source": "D(1,1.0068,6.4467,2.4949,6.4467,2.4949,6.8304,1.0068,6.8304)",
+            "span": {
+              "offset": 749,
+              "length": 20
+            }
+          },
+          {
+            "content": "United Arab Emirates",
+            "source": "D(1,2.4949,6.4467,7.5384,6.4534,7.5384,6.6419,2.4949,6.6352)",
+            "span": {
+              "offset": 779,
+              "length": 20
+            }
+          },
+          {
+            "content": "Departure Date:",
+            "source": "D(1,1.0068,6.8304,2.4949,6.8304,2.4949,7.0391,1.0068,7.0391)",
+            "span": {
+              "offset": 841,
+              "length": 15
+            }
+          },
+          {
+            "content": "11/16/2018",
+            "source": "D(1,2.4949,6.8304,7.5317,6.8371,7.5317,7.0458,2.4949,7.0391)",
+            "span": {
+              "offset": 866,
+              "length": 10
+            }
+          },
+          {
+            "content": "Return Date:",
+            "source": "D(1,1.0068,7.2275,2.4949,7.2275,2.4949,7.4227,1.0001,7.416)",
+            "span": {
+              "offset": 928,
+              "length": 12
+            }
+          },
+          {
+            "content": "11/23/2018",
+            "source": "D(1,2.4949,7.2275,7.5317,7.2343,7.5317,7.4227,2.4949,7.4227)",
+            "span": {
+              "offset": 950,
+              "length": 10
+            }
+          },
+          {
+            "content": "Signature:",
+            "source": "D(1,1.0636,8.3968,1.7033,8.397,1.7032,8.5463,1.0636,8.5461)",
+            "span": {
+              "offset": 983,
+              "length": 10
+            }
+          },
+          {
+            "content": "Wan Wu",
+            "source": "D(1,2.5895,8.3904,3.2687,8.3913,3.2686,8.5377,2.5893,8.5368)",
+            "span": {
+              "offset": 995,
+              "length": 6
+            }
+          },
+          {
+            "content": "Date:",
+            "source": "D(1,1.0684,8.7801,1.4092,8.7824,1.4083,8.9139,1.0675,8.9116)",
+            "span": {
+              "offset": 1003,
+              "length": 5
+            }
+          },
+          {
+            "content": "10/29/2018",
+            "source": "D(1,2.568,8.7798,3.3477,8.779,3.3478,8.926,2.5681,8.9269)",
+            "span": {
+              "offset": 1010,
+              "length": 10
+            }
+          }
+        ],
+        "sections": [
+          {
+            "span": {
+              "offset": 0,
+              "length": 1020
+            },
+            "elements": [
+              "/paragraphs/0",
+              "/paragraphs/1",
+              "/tables/0",
+              "/sections/1"
+            ]
+          },
+          {
+            "span": {
+              "offset": 618,
+              "length": 402
+            },
+            "elements": [
+              "/paragraphs/15",
+              "/tables/1",
+              "/paragraphs/24",
+              "/paragraphs/25",
+              "/paragraphs/26",
+              "/paragraphs/27"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "rowCount": 12,
+            "columnCount": 2,
+            "cells": [
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0037,2.4836,2.4918,2.4836,2.4918,2.8001,1.0037,2.7866)",
+                "span": {
+                  "offset": 111,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "PERSONAL DETAILS",
+                "source": "D(1,2.4918,2.4836,7.5083,2.4903,7.5083,2.8068,2.4918,2.8001)",
+                "span": {
+                  "offset": 121,
+                  "length": 16
+                },
+                "elements": [
+                  "/paragraphs/2"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Name:",
+                "source": "D(1,1.0037,2.7866,2.4918,2.8001,2.4918,2.9886,1.0037,2.9886)",
+                "span": {
+                  "offset": 158,
+                  "length": 5
+                },
+                "elements": [
+                  "/paragraphs/3"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Wan Wu",
+                "source": "D(1,2.4918,2.8001,7.5083,2.8068,7.5083,3.0021,2.4918,2.9886)",
+                "span": {
+                  "offset": 173,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/4"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0037,2.9886,2.4918,2.9886,2.4918,3.1839,1.0037,3.1839)",
+                "span": {
+                  "offset": 200,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4918,2.9886,7.5083,3.0021,7.5151,3.1974,2.4918,3.1839)",
+                "span": {
+                  "offset": 210,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Address:",
+                "source": "D(1,1.0037,3.1839,2.4918,3.1839,2.4918,3.3859,1.0037,3.3859)",
+                "span": {
+                  "offset": 231,
+                  "length": 8
+                },
+                "elements": [
+                  "/paragraphs/5"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "2165 Main Street, Unit 1276",
+                "source": "D(1,2.4918,3.1839,7.5151,3.1974,7.5151,3.3994,2.4918,3.3859)",
+                "span": {
+                  "offset": 249,
+                  "length": 27
+                },
+                "elements": [
+                  "/paragraphs/6"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 4,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0037,3.3859,2.4918,3.3859,2.4918,3.5744,1.0037,3.5677)",
+                "span": {
+                  "offset": 297,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 4,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4918,3.3859,7.5151,3.3994,7.5151,3.5812,2.4918,3.5744)",
+                "span": {
+                  "offset": 307,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 5,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "City:",
+                "source": "D(1,1.0037,3.5677,2.4918,3.5744,2.4918,3.7764,1.0037,3.7697)",
+                "span": {
+                  "offset": 328,
+                  "length": 5
+                },
+                "elements": [
+                  "/paragraphs/7"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 5,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "San Francisco",
+                "source": "D(1,2.4918,3.5744,7.5151,3.5812,7.5151,3.7832,2.4918,3.7764)",
+                "span": {
+                  "offset": 343,
+                  "length": 13
+                },
+                "elements": [
+                  "/paragraphs/8"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 6,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0037,3.7697,2.4918,3.7764,2.4918,3.965,1.0037,3.965)",
+                "span": {
+                  "offset": 377,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 6,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4918,3.7764,7.5151,3.7832,7.5151,3.9785,2.4918,3.965)",
+                "span": {
+                  "offset": 387,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 7,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Postal Code:",
+                "source": "D(1,1.0037,3.965,2.4918,3.965,2.4918,4.167,1.0037,4.1603)",
+                "span": {
+                  "offset": 408,
+                  "length": 12
+                },
+                "elements": [
+                  "/paragraphs/9"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 7,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "906543",
+                "source": "D(1,2.4918,3.965,7.5151,3.9785,7.5151,4.167,2.4918,4.167)",
+                "span": {
+                  "offset": 430,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/10"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 8,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0037,4.1603,2.4918,4.167,2.4918,4.3555,1.0037,4.3488)",
+                "span": {
+                  "offset": 457,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 8,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4918,4.167,7.5151,4.167,7.5151,4.3555,2.4918,4.3555)",
+                "span": {
+                  "offset": 467,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 9,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Country:",
+                "source": "D(1,1.0037,4.3488,2.4918,4.3555,2.4918,4.5576,0.9969,4.5508)",
+                "span": {
+                  "offset": 488,
+                  "length": 8
+                },
+                "elements": [
+                  "/paragraphs/11"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 9,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "USA",
+                "source": "D(1,2.4918,4.3555,7.5151,4.3555,7.5151,4.5576,2.4918,4.5576)",
+                "span": {
+                  "offset": 506,
+                  "length": 3
+                },
+                "elements": [
+                  "/paragraphs/12"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 10,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,0.9969,4.5508,2.4918,4.5576,2.4918,4.7461,0.9969,4.7394)",
+                "span": {
+                  "offset": 530,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 10,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4918,4.5576,7.5151,4.5576,7.5218,4.7461,2.4918,4.7461)",
+                "span": {
+                  "offset": 540,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 11,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Date of Birth:",
+                "source": "D(1,0.9969,4.7394,2.4918,4.7461,2.4918,4.9414,0.9969,4.9414)",
+                "span": {
+                  "offset": 561,
+                  "length": 14
+                },
+                "elements": [
+                  "/paragraphs/13"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 11,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "03/07/1977",
+                "source": "D(1,2.4918,4.7461,7.5218,4.7461,7.5218,4.9481,2.4918,4.9414)",
+                "span": {
+                  "offset": 585,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/14"
+                ]
+              }
+            ],
+            "source": "D(1,1.0107,2.5378,7.5477,2.5548,7.5422,4.9843,1.0051,4.9716)",
+            "span": {
+              "offset": 94,
+              "length": 521
+            }
+          },
+          {
+            "rowCount": 7,
+            "columnCount": 2,
+            "cells": [
+              {
+                "kind": "content",
+                "rowIndex": 0,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Destination City:",
+                "source": "D(1,1.0135,6.063,2.4949,6.063,2.4949,6.2582,1.0135,6.2582)",
+                "span": {
+                  "offset": 653,
+                  "length": 17
+                },
+                "elements": [
+                  "/paragraphs/16"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 0,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Dubai",
+                "source": "D(1,2.4949,6.063,7.5384,6.063,7.5384,6.265,2.4949,6.2582)",
+                "span": {
+                  "offset": 680,
+                  "length": 5
+                },
+                "elements": [
+                  "/paragraphs/17"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0135,6.2582,2.4949,6.2582,2.4949,6.4467,1.0068,6.4467)",
+                "span": {
+                  "offset": 706,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4949,6.2582,7.5384,6.265,7.5384,6.4534,2.4949,6.4467)",
+                "span": {
+                  "offset": 716,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 0,
+                "rowSpan": 2,
+                "columnSpan": 1,
+                "content": "Destination Country:",
+                "source": "D(1,1.0068,6.4467,2.4949,6.4467,2.4949,6.8304,1.0068,6.8304)",
+                "span": {
+                  "offset": 749,
+                  "length": 20
+                },
+                "elements": [
+                  "/paragraphs/18"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "United Arab Emirates",
+                "source": "D(1,2.4949,6.4467,7.5384,6.4534,7.5384,6.6419,2.4949,6.6352)",
+                "span": {
+                  "offset": 779,
+                  "length": 20
+                },
+                "elements": [
+                  "/paragraphs/19"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4949,6.6352,7.5384,6.6419,7.5317,6.8371,2.4949,6.8304)",
+                "span": {
+                  "offset": 820,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 4,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Departure Date:",
+                "source": "D(1,1.0068,6.8304,2.4949,6.8304,2.4949,7.0391,1.0068,7.0391)",
+                "span": {
+                  "offset": 841,
+                  "length": 15
+                },
+                "elements": [
+                  "/paragraphs/20"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 4,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "11/16/2018",
+                "source": "D(1,2.4949,6.8304,7.5317,6.8371,7.5317,7.0458,2.4949,7.0391)",
+                "span": {
+                  "offset": 866,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/21"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 5,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,1.0068,7.0391,2.4949,7.0391,2.4949,7.2275,1.0068,7.2275)",
+                "span": {
+                  "offset": 897,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 5,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,2.4949,7.0391,7.5317,7.0458,7.5317,7.2343,2.4949,7.2275)",
+                "span": {
+                  "offset": 907,
+                  "length": 0
+                }
+              },
+              {
+                "kind": "content",
+                "rowIndex": 6,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Return Date:",
+                "source": "D(1,1.0068,7.2275,2.4949,7.2275,2.4949,7.4227,1.0001,7.416)",
+                "span": {
+                  "offset": 928,
+                  "length": 12
+                },
+                "elements": [
+                  "/paragraphs/22"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 6,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "11/23/2018",
+                "source": "D(1,2.4949,7.2275,7.5317,7.2343,7.5317,7.4227,2.4949,7.4227)",
+                "span": {
+                  "offset": 950,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/23"
+                ]
+              }
+            ],
+            "source": "D(1,1.0206,6.0389,7.5646,6.0396,7.5644,7.4625,1.0205,7.4616)",
+            "span": {
+              "offset": 636,
+              "length": 344
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

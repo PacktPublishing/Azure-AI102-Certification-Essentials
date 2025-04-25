@@ -12,6 +12,7 @@ key = os.environ.get('CONTENT_UNDERSTANDING_KEY')
 
 analyzer_name = 'travel-insurance-analyzer'
 document_url = 'https://github.com/microsoftlearning/mslearn-ai-document-intelligence/raw/main/Labfiles/05-content-understanding/forms/rest-form.pdf'
+
 cu_version = '2024-12-01-preview'
 
 # Validate environment variables are set
