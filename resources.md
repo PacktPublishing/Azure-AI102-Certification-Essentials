@@ -2,6 +2,7 @@
 All embedded URL links throughout the book will be provided in the corresponding chapters on GitHub for easy access, eliminating the need to manually type lengthy URLs
 
 ## Chapter 1. Foundation of AI: Exploring ML, Language Models, and Advanced Techniques
+* Token calculator (https://token-calculator.net/)
 * In this video (https://youtu.be/cjIE5fBInAE?si=j4FHgQ0lczRKUWO9), discover how ChatGPT, the fastest growing consumer app in history with over 100 million weekly active users, combines RAG-powered features, OpenAI’s trusted API, and Azure AI Search to tackle today’s and tomorrow’s biggest challenges! 
 * Document field extraction features in preview to help automatic labeling, grounding and confidence scores by leveraging LLM model to improve accuracy. For more details, visit https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/train/custom-model?view=doc-intel-4.0.0
 * New models are continuously being introduced, offering greater power and efficiency at lower costs. Be sure to check the availability of the latest models beyond those mentioned in this book, as some versions may become outdated by the time of publication. For more information, visit the official documentation at https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models?tabs=global-standard%2Cstandard-chat-completions
@@ -23,14 +24,17 @@ All embedded URL links throughout the book will be provided in the corresponding
 * What is Azure AI Content Safety? at https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview
 
 ## Chapter 2. Getting Started with Azure AI: Studios, Pipelines, and Containerization
-* To sign up for a free Azure subscription, visit https://azure.microsoft.com/free.
-* The Visual Studio Code extension, which can be found 
-* AI Foundry (formerly Azure AI Studio) https://Ai.azure.com
+* To sign up for a free Azure subscription, visit https://azure.microsoft.com/free
+* The Visual Studio Code extension, which can be found at https://code.visualstudio.com/download
+* AI Foundry (formerly Azure AI Studio) https://ai.azure.com
 * OpenAI Studio (https://oai.azure.com/) 
 * Machine Learning Studio (https://ml.azure.com/)
 * Copilot Studio (https://copilotstudio.microsoft.com/) 
 * For more details on how to use Visual Studio Code, please visit https://code.visualstudio.com/docs
 * Search for Azure AI services multi-service account or by typing at https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne
+* In the Azure portal, create an ACI with the Text Analytics API container image from the following link: https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support#containers-in-azure-ai-services
+* Enter the basic information as shown in the following figure by navigating to https://portal.azure.com/#create/Microsoft.ContainerInstances
+* III.	Copy and paste the following image name into the Image field in the portal: mcr.microsoft.com/azure-cognitive-services/textanalytics/language:latest
   
 >[**Further Reading**]
 * What is Azure AI Foundry? at https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio
@@ -43,6 +47,8 @@ All embedded URL links throughout the book will be provided in the corresponding
 * What are Azure AI containers? At https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support
 
 ## Chapter 3. Managing, monitoring, and securing Azure AI services
+* The Azure Pricing Calculator—available at aka.ms/AzurePricingCalculator
+* Key Vault, or visit https://portal.azure.com/#create/Microsoft.KeyVault
 * Virtual Network Service Endpoints at https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview
 * to Grant access from an internet IP range at https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-virtual-networks?tabs=portal#grant-access-from-an-internet-ip-range
 * Service Tags: Utilize service tags, such as CognitiveServicesManagement, to streamline network security rule management. Service tags represent groups of IP addresses for Azure services, enabling you to easily allow traffic from these services. For more details, refer to the documentation at https://learn.microsoft.com/en-us/azure/ai-services/qnamaker/how-to/network-isolation
@@ -62,6 +68,7 @@ All embedded URL links throughout the book will be provided in the corresponding
 
 ## Chapter 4. Implementing Content Moderation Solutions
 * Please refer model availability site at https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#standard-deployment-model-availability
+* Azure OpenAI Studio (https://oai.azure.com/)
 * Azure AI Foundry by clicking at https://ai.azure.com/explore/contentsafety
 * If you encounter the error message, "Your account does not have access to this resource, please contact your resource owner to get access," ensure that your account is assigned the Cognitive Services User role for the Content Safety resource or the Azure AI Services resource you're attempting to use. Refer to more details by clicking at https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/response-codes#azure-ai-studio-error-messages
   
@@ -77,6 +84,9 @@ All embedded URL links throughout the book will be provided in the corresponding
 * Harm categories in Azure AI Content Safety at https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning
 
 ## Chapter 5. Exploring Azure AI Vision Solutions
+* With this, we come to the end of this exercise. The next step is to review and explore the UI further. Experiment with different images and features, such as generating dense captions or additional object properties. You can also use the Azure documentation at https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/ to explore more use cases and optimizations
+* Create a new storage account by navigating to https://portal.azure.com/#create/Microsoft.StorageAccount
+* Azure Vision Studio at https://customvision.ai
 * Azure Vision Studio at https://portal.vision.cognitive.azure.com
 * Video Indexer Portal at https://www.videoindexer.ai/
   
@@ -88,9 +98,11 @@ All embedded URL links throughout the book will be provided in the corresponding
 * What is Video Analysis? At https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/intro-to-spatial-analysis-public-preview?tabs=sa
 
 ## Chapter 6. Implementing Natural Language Processing Solutions
-* The Azure AI Speech to Text service provides two REST APIs for speech recognition: the primary Speech to Text API for general speech transcription and the Speech to Text Short Audio API, optimized for short audio streams (up to 60 seconds). These APIs support both interactive speech recognition and batch transcription, making them adaptable to various audio lengths and volumes. Developers typically access these services through language-specific SDKs, such as Python or C#. For more details on usage, visit https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-text-to-speech?tabs=streaming
+* The Azure AI speech-to-text service provides two REST APIs for speech recognition: the primary speech-to-text API for general speech transcription and the speech-to-text short audio API, optimized for short audio streams (up to 60 seconds). These APIs support both interactive speech recognition and batch transcription, making them adaptable to various audio lengths and volumes. Developers typically access these services through language-specific SDKs, such as Python or C#. For more details on their usage, visit https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-text-to-speech?tabs=streaming
 * a dedicated Azure AI Speech resource at https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices 
 * Speech Studio at https://speech.microsoft.com/portal/voicegallery
+* If you haven’t created an Azure AI Hub and project yet, refer to Exercise 1: Creating a hub, project, and AI service in the Azure portal in Chapter 7. Otherwise, proceed with the following steps to create the AI service resource under your existing project. For more details, visit https://learn.microsoft.com/en-us/azure/ai-studio/ai-services/how-to/connect-ai-services
+* If you haven’t created an Azure AI Hub and project yet, refer to Exercise 1: Creating a hub, project, and AI service in the Azure portal in Chapter 7. Otherwise, proceed with the following steps to create the AI service resource under your existing project. For more details, visit https://learn.microsoft.com/en-us/azure/ai-studio/ai-services/how-to/connect-ai-services
 * Azure Language Studio (https://language.cognitive.azure.com/)
 * an FAQ page, such as the Microsoft Learn FAQ URL with the following URL: https://docs.microsoft.com/en-us/learn/support/faq
 * Microsoft credentials page (https://docs.microsoft.com/learn/credentials/)
@@ -106,10 +118,13 @@ All embedded URL links throughout the book will be provided in the corresponding
 * Quickstart: Recognize and convert speech to text at https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-speech-to-text?tabs=windows%2Cterminal&pivots=ai-studio
 * Text to speech documentation at https://learn.microsoft.com/en-us/azure/ai-services/speech-service/index-text-to-speech
 
-## Chapter 7. Implementing Knowledge Mining and Document Intelligence 
+## Chapter 7. Implementing Knowledge Mining,Document Intelligence, Content Understanding  
+* 1.	Either navigate from https://portal.azure.com to create a resource and select AI Search or use the following URL to jump straight to it: https://portal.azure.com/#create/Microsoft.Search
 * The recommended approach is to use the backup and restore method. For more details, refer to https://learn.microsoft.com/en-us/samples/azure-samples/azure-search-dotnet-utilities/azure-search-backup-restore-index/
 * AI Search or use the following URL to jump straight to it: https://portal.azure.com/#create/Microsoft.Search
 * you can explore Layout model at https://aka.ms/di-layout and sample code examples at https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/tree/main
+* We recommend watching this overview video of Azure AI Content Understanding, presented by the Microsoft Product Manager for the service: https://youtu.be/kYwq9HNVj1s?si=HeEXSOCThxGALmUB. This video offers a clear introduction to the key concepts and will help you better understand the hands-on exercise that follows
+* On the home page, select Explore Azure AI Services by either scrolling down or navigating to the https://ai.azure.com/explore/aiservices
   
 >[**Further Reading**]
 * What's Azure AI Search? at https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search
@@ -128,6 +143,7 @@ All embedded URL links throughout the book will be provided in the corresponding
 * Demo: Enriching Data in Azure AI Search Indexing Pipeline Using Azure AI LLMs/SLMs for RAG Apps at https://techcommunity.microsoft.com/blog/azure-ai-services-blog/demo-enriching-data-in-azure-ai-search-indexing-pipeline-using-azure-ai-llmsslms/4358494
 
 ## Chapter 8. Working on Generative AI Solutions
+* https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry#project-types.
 * use the following URL to jump straight to it: https://portal.azure.com/#create/Microsoft.CognitiveServicesOpenAI
 * To view full pricing details at https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 * Region: Model availability can differ by region, so ensure the model you want to deploy is accessible in your chosen location. Additionally, consider performance and compliance factors, such as data residency requirements, which may affect your selection. For more details, visit this link: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models
@@ -145,7 +161,29 @@ All embedded URL links throughout the book will be provided in the corresponding
 * System message framework and template recommendations for LLMs at https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/system-message
 * Azure OpenAI on Your Data at https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=ai-search%2Ccopilot
 
-## Chapter 9. Additional references with real-world applications
+## Chapter 9. Implementing Agentic Solutions with Azure AI Agent Service 
+* Overview of AI Agent Capabilities and Features
+Video URL: https://youtu.be/dMEwpthSuhU?si=GYlyC4jQJObZLnNm
+This video provides a high-level introduction to the capabilities and features of AI Agents.
+
+Detailed Use Case with Sample Code
+Video URL: https://youtu.be/ph-1-OIqsxY?si=rMJs8FqECKDw_0KI
+This session walks through a practical use case, complete with sample code and implementation details.
+* For more detailed information about Azure AI Agent Service, please visit: https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357
+* You need to check which region Azure AI Agent service is available by visiting at https://learn.microsoft.com/en-us/azure/ai-services/agents/concepts/model-region-support#azure-openai-models
+* Before proceeding with the next three exercises using Semantic Kernel and AutoGen, you’ll need to authenticate with a model hosted on GitHub. Start by copying the .env-sample file to a new .env file. Then, generate a Personal Access Token (PAT) and store it under the GITHUB_TOKEN variable in the .env file. This token enables secure access to models and services that require GitHub authentication. You can create your PAT by following the instructions here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens.
+  
+>[**Further Reading**]
+* Azure AI Agent Service Overview: https://learn.microsoft.com/en-us/azure/ai-services/agents/
+* What Are Agents? Microsoft Learn: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/2-what-are-agents
+* Semantic Kernel documentation: https://learn.microsoft.com/en-us/semantic-kernel/
+* AutoGen Framework GitHub: https://github.com/microsoft/autogen
+* Azure AI Search for RAG: https://learn.microsoft.com/en-us/azure/search/
+* Prompt Flow for Agent Testing: https://learn.microsoft.com/en-us/azure/ai-studio/prompt-flow-overview
+* What are Azure AI containers? at https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-container-support
+* (Strongly recommended) Learn more about agents: https://microsoft.github.io/generative-ai-for-beginners/#/
+
+## Chapter 10. Additional references with real-world applications
 * Chat your own data with RAG pattern at https://github.com/Azure-Samples/azure-search-openai-demo 
 * For the latest information on Azure OpenAI model deployment schedules, visit the official Azure documentation at https://learn.microsoft.com/en-us/azure/ai-services/openai/whats-new
 * models for speech-enabled experiences. Check out a quick demo here: https://youtu.be/fVbS-zpIqvY?si=YhGfyjUlhWQnJbX5
@@ -175,7 +213,7 @@ All embedded URL links throughout the book will be provided in the corresponding
 * Vector samples - Azure AI Search at https://github.com/Azure/azure-search-vector-samples
 
 
-## Chapter 10. Additional references with real-world applications
+## Chapter 11. Preparing for the AI-102 Certification Exam
 * https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience#unscheduled-breaks-on-exams
 * https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience#accessing-microsoft-learn-during-your-certification-exam
 * Practice Assessments: Available on Microsoft Learn to simulate question styles and difficulty. Visit at https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/practice/assessment?assessment-type=practice&assessmentId=61&practice-assessment-type=certification
