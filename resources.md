@@ -124,6 +124,7 @@ All embedded URL links throughout the book will be provided in the corresponding
 * AI Search or use the following URL to jump straight to it: https://portal.azure.com/#create/Microsoft.Search
 * you can explore Layout model at https://aka.ms/di-layout and sample code examples at https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/tree/main
 * We recommend watching this overview video of Azure AI Content Understanding, presented by the Microsoft Product Manager for the service: https://youtu.be/kYwq9HNVj1s?si=HeEXSOCThxGALmUB. This video offers a clear introduction to the key concepts and will help you better understand the hands-on exercise that follows
+* For more information, visit the official document at: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/model-overview?view=doc-intel-4.0.0
 * On the home page, select Explore Azure AI Services by either scrolling down or navigating to the https://ai.azure.com/explore/aiservices
   
 >[**Further Reading**]
