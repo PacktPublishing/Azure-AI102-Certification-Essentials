@@ -4,3 +4,4 @@
 /backup
 **/.env
 **/get-videos.ps1
+.github
