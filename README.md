@@ -1,5 +1,11 @@
 # 🤖 Azure AI-102 Certification Essentials
 
+[![Azure AI](https://img.shields.io/badge/AZURE%20AI-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://ai.azure.com/)
+[![Foundry](https://img.shields.io/badge/FOUNDRY-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://ai.azure.com/)
+[![Python](https://img.shields.io/badge/PYTHON-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![Jupyter](https://img.shields.io/badge/JUPYTER-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Lab](https://img.shields.io/badge/LAB-FF6B35?style=for-the-badge&logo=laboratory&logoColor=white)](https://github.com/dhangerkapil/ai-foundry-e2e-lab)
+
 > A comprehensive guide to mastering Azure AI services and passing the AI-102 certification exam
 > 
 [<img src="images/image-2.png" alt="Azure AI-102 Certification Essentials Book Cover" width="700"/>](https://www.amazon.com/Azure-AI-102-Certification-Essentials-full-length/dp/1836205279/ref=sr_1_1?crid=32KGWK2BJCBJX&dib=eyJ2IjoiMSJ9.HZlmxknfL4Fl8lW34s_PDCUG2lORDNIsXcjuebd9tI9vB1u2ftDAMICSsZhEZM-Y6pt5fyY1BeEt-4Jp3ilT3w.LKeGRJOUSfVdYH_rJJypXfxJxGgx2eR-I1JylwndfW4&dib_tag=se&keywords=azure+ai-102+certification+essentials&qid=1753571567&sprefix=ai-102+e%2Caps%2C100&sr=8-1)
