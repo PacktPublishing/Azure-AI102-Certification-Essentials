@@ -42,4 +42,4 @@ requests-oauthlib==2.0.0
 setuptools==65.5.0
 six==1.16.0
 typing_extensions==4.12.2
-urllib3==2.2.3
+urllib3==2.6.0
